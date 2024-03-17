@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>News Website</title>
+    <link rel="stylesheet" type="text/css" href="./frontend/styles/index.css">
+</head>
+<body>
+    <div class="container">
+        <h1>News Website</h1>
+        
+        <!-- Form to add news -->
+        <form id="add-news-form">
+            <input type="text" id="title" placeholder="Title" required>
+            <textarea id="content" placeholder="Content" required></textarea>
+            <button type="submit">Add News</button>
+        </form>
+        
+        <!-- Displaying list of news -->
+        <ul id="news-list"></ul>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="./frontend/scripts/index.js"></script>
+</body>
+</html>
